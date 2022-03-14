@@ -1,0 +1,46 @@
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: "Outfit", sans-serif; background: #0d192b; }
+
+body a { text-decoration: none; }
+
+.container { min-height: 100vh; padding: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+main .card { width: 350px; background: #14253d; padding: 24px; border-radius: 15px; -webkit-box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05), 0px 40px 50px 30px rgba(0, 0, 0, 0.2); box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05), 0px 40px 50px 30px rgba(0, 0, 0, 0.2); }
+
+main .card .cardHead .cardImage { vertical-align: top; position: relative; border-radius: 8px; overflow: hidden; cursor: pointer; }
+
+main .card .cardHead .cardImage::after { content: url(images/icon-view.svg); background: rgba(0, 255, 247, 0.5); position: absolute; inset: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 0; -webkit-transition: all 0.25s ease; transition: all 0.25s ease; }
+
+main .card .cardHead .cardImage:hover::after { opacity: 1; }
+
+main .card .cardHead .cardImage Img { display: block; width: 100%; }
+
+main .card .cardMain { margin-bottom: 15px; border-bottom: 1px solid #476085; }
+
+main .card .cardMain a h2 { color: white; font-weight: 500; margin: 20px 0; }
+
+main .card .cardMain a h2:hover { color: #00fff7; }
+
+main .card .cardMain p { font-size: 18px; color: #8bacda; line-height: 1.5; margin-bottom: 23px; font-weight: 300; }
+
+main .card .wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 25px; }
+
+main .card .wrapper .cardPrice { color: #00fff7; font-weight: 500; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+main .card .wrapper .cardPrice .cardIcon { margin-right: 6px; }
+
+main .card .wrapper .cardCountdown { color: #8bacda; font-weight: 500; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+main .card .wrapper .cardCountdown .cardIcon { margin-right: 6px; }
+
+main .card .cardFooter { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 10px; }
+
+main .card .cardFooter p { font-weight: 400; color: #8bacda; }
+
+main .card .cardFooter p a { color: white; }
+
+main .card .cardFooter p a:hover { color: #00fff7; }
+
+main .card .cardFooter .iconA { margin-right: 20px; width: 34px; height: 34px; border: 2px solid white; border-radius: 50%; }
+/*# sourceMappingURL=styles.css.map */
